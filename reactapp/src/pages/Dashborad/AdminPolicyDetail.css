@@ -1,0 +1,129 @@
+.cfluid {
+	/* border: 2px rgb(234, 0, 255) solid;  */
+	height: 5rem;
+	background-color: #5542ff;
+}
+.subHeader {
+	margin: 1rem 3rem 1rem 30rem;
+	/* border: 1px rgb(0, 255, 242) solid; */
+	width: 40%;
+	height: 3rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+.subHeader a {
+	color: #fcfcfc;
+}
+.policy_info {
+	margin: 2rem 16rem 8rem 8rem;
+
+	border: 1px rgb(184, 190, 190) solid;
+	height: 20rem;
+	width: 65%;
+	display: flex;
+	background-color: #c8c4c4;
+}
+
+.rowctn1 {
+	background-color: #c8c4c4;
+}
+.rowctn2 {
+	margin: auto;
+	/* border: 2px rgb(255, 0, 0) solid;  */
+}
+.col {
+	/* border: 2px rgb(0, 4, 255) solid;  */
+	padding: 20px;
+}
+.ratingStar {
+	border: 2px rgb(43, 255, 0) solid;
+}
+.starStyle .checked {
+	color: orange;
+}
+.logoutBtn {
+	margin: 1rem;
+	display: flex;
+	justify-content: center;
+	color: #fcfcfc;
+	/* border: 2px rgb(0, 4, 255) solid;  */
+}
+.logoutBtn a {
+	color: #fcfcfc;
+}
+.btnpl {
+	margin: auto;
+	padding: 0px;
+	background-color: #c8c4c4;
+}
+.colright i {
+	padding: 10px;
+	color: black;
+	font-size: 30px;
+}
+.serBar {
+	margin: 20px 25rem 20px 25rem;
+}
+.serBar button {
+	background-color: black;
+	color: rgb(235, 226, 226);
+}
+
+body {
+	background-color: #effffd;
+}
+
+a:hover {
+	color: inherit;
+}
+
+.brand {
+	font-size: 2rem;
+	color: #f5f5f5;
+}
+
+.nav-con {
+	background-color: #42c2ff;
+	color: #f5f5f5;
+	font-weight: bolder;
+}
+
+.nav-link {
+	padding: 1rem;
+	margin-left: 1rem;
+}
+
+.nav-link,
+.btn {
+	color: #f5f5f5;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.nav-link:hover {
+	color: inherit;
+}
+
+.act {
+	font-size: 2rem;
+}
+
+.policy-con {
+	display: flex;
+	justify-content: center;
+}
+
+.form-con {
+	width: 80%;
+}
+
+.form-ip {
+	font-size: 1.8rem;
+	padding: 0.5rem;
+	color: #383838;
+	background-color: #fcfcfc;
+}
+
+[class^="col-"]:not(:last-child) {
+	margin-bottom: 2rem;
+}

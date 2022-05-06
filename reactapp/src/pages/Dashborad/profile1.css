@@ -1,0 +1,119 @@
+  
+   .cfluid{
+    /* border: 2px rgb(234, 0, 255) solid;  */
+    height: 5rem;
+    background-color: #5542ff
+   }
+   .subHeader{
+   margin: 1rem 3rem 1rem 30rem;
+   /* border: 1px rgb(0, 255, 242) solid; */
+    width: 40%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+   }
+   .subHeader a{
+    color: #fcfcfc;
+ }
+ .policy_info{
+     margin: 2rem 16rem 8rem 8rem;
+     
+    border: 1px rgb(184, 190, 190) solid;
+    height: 18rem;
+    width: 65%;
+    display: flex;
+  
+   
+
+ }
+ 
+ 
+ .rowctn1{
+   
+   background-color: #c8c4c4;
+ }
+ .rowctn2{
+     margin: auto;
+   /* border: 2px rgb(255, 0, 0) solid;  */
+ } 
+ .col{
+   /* border: 2px rgb(0, 4, 255) solid;  */
+     padding: 20px;
+ }
+ .ratingStar{
+    border: 2px rgb(43, 255, 0) solid; 
+ }
+ .starStyle
+.checked {
+  color: orange;
+}
+.logoutBtn {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    color: #fcfcfc;
+    /* border: 2px rgb(0, 4, 255) solid;  */
+}
+.logoutBtn a{
+    color: #fcfcfc;
+}
+
+ .input-name{
+    width: 100%;
+    position: relative;
+    margin: 50px auto;
+}
+.name{
+    width: 45%;
+    padding: 6px 0 6px 30px;
+  
+}
+.input-name span{
+    margin-left: 40px;
+    
+}
+.Add{
+    width: 45%;
+    padding:6px 0 6px 30px ;
+   
+}
+.text-name ,.name,.Add{
+    border: 1px solid #cccccc;
+    outline: none;
+
+}
+.text-name{
+    width: 45%;
+    padding:6px 0 6px 30px;
+    
+}
+.button{
+    background-color: #FFFFFF;
+    height: 35px;
+    line-height: 35px;
+    width:100%;
+    border:none;
+    outline: none;
+    font-size: small;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+@media (max-width:400px)
+{
+    .container{
+        width:100%;
+
+    }
+    .input-name{
+        margin-bottom:-10px;
+
+    }
+    .name{
+        width: 100%;
+        padding:8px 0 8px 40px;
+
+    }
+}
